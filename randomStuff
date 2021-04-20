@@ -1,0 +1,334 @@
+package bannerPull;
+import java.util.Random;
+public class bannerPull {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+/*
+		
+// Banner | Starglade: Illuminant Flame
+		
+// This controls how many pulls you're doing.	
+int arraySize=10; 
+
+// Number generator
+int[] num = new int[arraySize] ;
+for (int i=0; i<num.length; i++) {
+num[i] = (int)(Math.random()*870);
+}
+
+for (int i=0; i<num.length; i++) {
+	System.out.print("");
+
+// This lets you see what number is generated.
+for (int i=0; i<num.length; i++) {
+	System.out.print(num[i]+": ");
+	
+	
+	// 0.5%
+	if (num[i] >= 1 && num[i] <= 5) {
+		System.out.println("VI | Shai Lunerra, the Blade of Equinox");
+	}
+	
+	// 0.5%
+	if (num[i] >= 6 && num[i] <= 10) {
+		System.out.println("VI | Lyra Valheim, the Twilight Crown");
+	}
+	
+	// 0.5%
+	if (num[i] >= 11 && num[i] <= 15) {
+		System.out.println("VI | Aveera Rosswinde, the Baroness");
+	}
+	
+	// 0.5%
+	if (num[i] >= 16 && num[i] <= 20) {
+		System.out.println("VI | Elizabeth Brookes, the Indulgence of Darkness");
+	}
+	
+	// 2.5%
+	if (num[i] >= 21 && num[i] <= 70) {
+		System.out.println("V | Saren Veda, the Skyweaver");
+	}
+	
+	// 2.5%
+	else if (num[i] >= 71 && num[i] <= 120) {
+		System.out.println("V | Myla Liu, the Void Seer");
+	}
+	
+	// 2.5%
+	else if (num[i] >= 121 && num[i] <= 170) {
+		System.out.println("V | Sonus, the Starlight Caretaker");
+	}
+	
+	// 2.5%
+	else if (num[i] >= 171 && num[i] <= 220) {
+		System.out.println("V | Venari, the Dream Hunter");
+	}
+	
+	// 2.5%
+	else if (num[i] >= 221 && num[i] <= 270) {
+		System.out.println("V | Leone, the Challenger at Dusk");
+	}
+	
+	// 7.5%
+	else if (num[i] >= 271 && num[i] <= 370) {
+		System.out.println("IV | Zeal, the Indigo");
+	}
+	
+	// 7.5%
+	else if (num[i] >= 371 && num[i] <= 470) {
+		System.out.println("IV | Vivian Moon, the Wings of the Moon");
+	}
+	
+	// 7.5%
+	else if (num[i] >= 471 && num[i] <= 570) {
+		System.out.println("IV | Ashley Maple, the Mischievous Maple Moth");
+	}
+	
+	// 7.5%
+	else if (num[i] >= 571 && num[i] <= 670) {
+		System.out.println("IV | Twig, the Suncrawler");
+	}
+	
+	// 7.5%
+	else if (num[i] >= 671 && num[i] <= 770) {
+		System.out.println("IV | Jamie Hudson, the Stone Heart");
+	}
+	
+	// 7.5%
+	else if (num[i] >= 771 && num[i] <= 870) {
+		System.out.println("IV | Rin Billiton, the Tide Cutter");
+	}
+
+	}
+
+}
+
+}
+
+*/
+	
+/*	
+// Banner | Artifacts of War
+int arraySize=5; 
+		
+int[] num = new int[arraySize] ;
+for (int i=0; i<num.length; i++) {
+num[i] = (int)(Math.random()*100 + 1);
+}
+
+
+// This lets you see what number is generated.
+for (int i=0; i<num.length; i++) {
+System.out.print("");		
+		
+
+//5-star Pull test
+if (num[i] >= 0 && num[i] <= 20) {
+	int randomNumbertwo = (int)(Math.random() * 2 + 1);
+
+	if (randomNumbertwo == 1) {
+	System.out.println("Everlasting Sorrow");
+	}
+  	
+	else {
+	System.out.println("Eternal Promise");
+	}
+	}
+
+if (num[i] >= 21 && num[i] <= 40) {
+	int randomNumbertwo = (int)(Math.random() * 2 + 1);
+
+	if (randomNumbertwo == 1) {
+	System.out.println("Agnes");
+	}
+  	
+	else {
+	System.out.println("Petrispear");
+	}
+	}
+
+if (num[i] >= 41 && num[i] <= 60) {
+	int randomNumbertwo = (int)(Math.random() * 2 + 1);
+
+	if (randomNumbertwo == 1) {
+	System.out.println("The Sunspear");
+	}
+  	
+	else {
+	System.out.println("The Imperfect Fractal");
+	}
+	}
+
+if (num[i] >= 61 && num[i] <= 80) {
+	int randomNumbertwo = (int)(Math.random() * 2 + 1);
+
+	if (randomNumbertwo == 1) {
+	System.out.println("Shade of Equinox");
+	}
+  	
+	else {
+	System.out.println("Seeker's Monolith");
+	}
+	}
+
+if (num[i] >= 81 && num[i] <= 100) {
+	int randomNumbertwo = (int)(Math.random() * 2 + 1);
+
+	if (randomNumbertwo == 1) {
+	System.out.println("Arc Whip");
+	}
+  	
+	else {
+	System.out.println("Steel Plume");
+	}
+	}
+}
+}
+}
+*/
+
+
+//	Banner | Tribute to Episoria
+
+int arraySize=10; 
+		
+int[] num = new int[arraySize] ;
+for (int i=0; i<num.length; i++) {
+num[i] = (int)(Math.random()*1000 + 1);
+}
+
+
+// This lets you see what number is generated (Add num[i] + ": ")
+for (int i=0; i<num.length; i++) {
+System.out.println("");		
+				
+
+// 6-Star Pull Test (8.0%)
+if (num[i] >= 0 && num[i] <= 80) {
+	int randomNumber = (int)(Math.random() * 6 + 1);
+
+		if (randomNumber == 1) {
+			System.out.print("VI | Shai Lunerra, Blade of Equinox");
+		}
+		else if (randomNumber == 2) {
+			System.out.print("VI | Malachor, Calamity's Embrace");
+		}		 
+		else if (randomNumber == 3) {
+			System.out.print("VI | Aveera Rosswinde, the Baroness");
+		}
+		else if (randomNumber == 4) {
+			System.out.print("VI | Elrin, Serenity's Halo");
+		}
+		else if (randomNumber == 5) {
+			System.out.print("VI | Eilenhart, the Catastrophe Maiden");
+		}	
+		else {
+			System.out.print("VI | Lyra Valheim, the Twilight Crown");
+		}
+}
+
+// 5-Star Pull Test (12.0%)
+if (num[i] >= 81 && num[i] <= 200) {
+	int randomNumber = (int)(Math.random() * 8 + 1);
+
+		if (randomNumber == 1) {
+			System.out.print("V | Gene Van Lyre, the Unmmasked");
+		}
+		else if (randomNumber == 2) {
+			System.out.print("V | Cindy Coleson, the Rozen's Embrace");
+		}
+		else if (randomNumber == 3) {
+			System.out.print("V | Vivian Moon, the Wings of the Moon");
+		}
+		else if (randomNumber == 4) {
+			System.out.print("V | Jordan Kallis, the Exiled Paladrake");
+		}
+		else if (randomNumber == 5) {
+			System.out.print("V | Bianca Vandaine, the Melody of Ivory");
+		}		
+		else if (randomNumber == 6) {
+			System.out.print("V | Eleanor Hells, the Fair Lady");
+		}	
+		else if (randomNumber == 7) {
+			System.out.print("V | Myla Liu, the Void Seer");
+		}	
+		else {
+			System.out.print("V | Elizabeth Brookes, the Indulgence of Darkness");
+		}
+}
+
+// 4-Star Pull Test (20.0%)
+if (num[i] >= 201 && num[i] <= 400) {
+	int randomNumber = (int)(Math.random() * 6 + 1);
+
+		if (randomNumber == 1) {
+			System.out.print("IV | Twig, the Suncrawler");
+		}
+		else if (randomNumber == 2) {
+			System.out.print("IV | Maire Knight, the Kingseeker");
+		}
+		else if (randomNumber == 3) {
+			System.out.print("IV | Zeal, the Indigo");
+		}
+		else if (randomNumber == 4) {
+			System.out.print("IV | Rin Billiton, the Tide Cutter");
+		}
+		else if (randomNumber == 5) {
+			System.out.print("IV | Ashley Maple, The Mischievous Maple Moth");
+		}		  	
+		else {
+			System.out.print("IV | Sonus, the Starlight Caretaker");
+		}
+}
+
+// 3-Star Pull Test (60.0%)
+if (num[i] >= 401 && num[i] <= 1000) {
+	int randomNumber = (int)(Math.random() * 7 + 1);
+
+		if (randomNumber == 1) {
+			System.out.print("III | silver");
+		}
+		else if (randomNumber == 2) {
+			System.out.print("III | bronze");
+		}
+		else if (randomNumber == 2) {
+			System.out.print("III | platinum");
+		}
+		else if (randomNumber == 3) {
+			System.out.print("III | gold");
+		}
+		else if (randomNumber == 4) {
+			System.out.print("III | diamond");
+		}
+		else if (randomNumber == 5) {
+			System.out.print("III | copper");
+		}		  	
+		else {
+			System.out.print("III | emerald");
+		}
+}
+
+}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+	
+
